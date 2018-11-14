@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Addon",
     "lastOpened": 0,
-    "created": 1511946526494
+    "created": 1542160871483
   },
   "iconSets": [
     {
@@ -1680,7 +1680,10 @@
         {
           "name": "exchange",
           "id": 211,
-          "order": 0
+          "order": 217,
+          "prevSize": 28,
+          "code": 61676,
+          "tempChar": ""
         },
         {
           "name": "cloud-download",
@@ -2113,7 +2116,7 @@
           "order": 196,
           "prevSize": 28,
           "code": 61771,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "external-link-square",
@@ -2501,7 +2504,7 @@
           "order": 199,
           "prevSize": 28,
           "code": 61853,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "yahoo",
@@ -2514,7 +2517,7 @@
           "order": 188,
           "prevSize": 28,
           "code": 61856,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "reddit",
@@ -2562,7 +2565,7 @@
           "order": 189,
           "prevSize": 28,
           "code": 61865,
-          "tempChar": "",
+          "tempChar": "",
           "ligatures": ""
         },
         {
@@ -2716,7 +2719,7 @@
           "order": 190,
           "prevSize": 28,
           "code": 61897,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -2759,7 +2762,7 @@
           "order": 191,
           "prevSize": 28,
           "code": 61906,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "git",
@@ -3192,7 +3195,7 @@
           "order": 193,
           "prevSize": 28,
           "code": 62000,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "pinterest-p",
@@ -14278,7 +14281,7 @@
           "prevSize": 20,
           "code": 59736,
           "name": "question",
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 13,
@@ -23222,7 +23225,7 @@
           "prevSize": 32,
           "code": 59749,
           "name": "clock",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -23230,7 +23233,7 @@
           "name": "dropbox",
           "prevSize": 32,
           "code": 59742,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -23246,7 +23249,7 @@
           "name": "paypal",
           "prevSize": 32,
           "code": 59744,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -23418,7 +23421,7 @@
           "name": "file-pdf-o",
           "prevSize": 28,
           "code": 59741,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -23426,7 +23429,7 @@
           "prevSize": 28,
           "code": 59737,
           "name": "newspaper-o",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -23434,7 +23437,7 @@
           "prevSize": 28,
           "code": 59732,
           "name": "lightbulb-o",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -23471,7 +23474,7 @@
           "name": "stripe",
           "prevSize": 28,
           "code": 59750,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 119,
@@ -23479,7 +23482,7 @@
           "name": "credit-card",
           "prevSize": 28,
           "code": 59751,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -23674,7 +23677,7 @@
           "prevSize": 24,
           "code": 59719,
           "name": "extension",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -23923,7 +23926,7 @@
       "metadata": {
         "fontFamily": "Questetra-Icon-Font-A",
         "majorVersion": 2,
-        "minorVersion": 2
+        "minorVersion": 3
       },
       "metrics": {
         "emSize": 1024,
