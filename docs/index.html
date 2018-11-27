@@ -7,11 +7,19 @@
   <title>Icon Maker</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="noto.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:500,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
   <style type="text/css">
     body {
       margin-top: 60px;
-      font-family: 'noto';
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .tab-content{
+      margin-top: 20px;
+    }
+    textarea.base64{
+      font-size: 0.75rem;
+      font-family: 'Source Code Pro', monospace;
     }
   </style>
 </head>
@@ -34,14 +42,14 @@
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Icon Maker
-</a>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="static-addon-icon-tab" data-toggle="tab" href="#static-addon-icon" role="tab" aria-controls="home">サービスタスク定義ファイルのアイコン
-</a>
+        <a class="nav-link" id="static-addon-icon-tab" data-toggle="tab" href="#static-addon-icon" role="tab" aria-controls="static-addon-icon">固定サービスタスクアイコン
+        </a>
       </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
+    <div class="tab-content">
       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
         <div class="row">
           <div class="col">
@@ -180,13 +188,13 @@
           <div class="col">
             <h4>32x32 Base64</h4>
             <div class="form-group">
-              <textarea id="base64" class="form-control" readonly rows="12" cols="80"></textarea>
+              <textarea id="base64" class="form-control base64" readonly rows="12" cols="80"></textarea>
             </div>
           </div>
         </div>
       </div>
       <div class="tab-pane fade" id="static-addon-icon" role="tabpanel" aria-labelledby="static-addon-icon-tab">
-        hoge
+        <div id="staticIcons" />
       </div>
     </div>
   </div>
@@ -194,6 +202,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="js/icons-min.js?ver=2"></script>
+  <script src="js/static-icons.js"></script>
   <script src="js/main-min.js"></script>
 </body>
 
