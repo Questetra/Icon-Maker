@@ -29,6 +29,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks("grunt-contrib-compress");
     */
 
-    grunt.registerTask('_Dist', ['copy', 'uglify']);
+    grunt.registerTask('default', ['copy', 'uglify']);
 
 };

@@ -2,4 +2,4 @@
 
 今すぐ使う > [Icon Maker : Github Pages](https://questetra.github.io/Icon-Maker/index.html)
 
-- [アイコンについて](about_icon_font.md)
+- [アイコンを追加する](iconadd.md)
