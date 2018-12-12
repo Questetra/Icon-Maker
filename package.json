@@ -1,7 +1,7 @@
 {
   "name": "qeyecatchiconmaker",
   "version": "0.0.1",
-  "description": "",
+  "description": "今すぐ使う > [Icon Maker : Github Pages](https://questetra.github.io/Icon-Maker/index.html)",
   "main": "./Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,16 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-uglify": "^3.0.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Questetra/Icon-Maker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Questetra/Icon-Maker/issues"
+  },
+  "homepage": "https://github.com/Questetra/Icon-Maker#readme"
 }

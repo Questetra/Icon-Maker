@@ -46,6 +46,7 @@ var icons = [
 	{label:"Kintone", value:"&#xe914;", color:"252,184,0"},
 	{label:"Line", value:"&#xe933;", color:"0,195,0"},
 	{label:"Microsoft Teams", value:"&#xe96a;", color:"85,88,175"},
+	{label:"MF クラウド", value:"&#xe970;", color:"0,84,172"},
 	{label:"NHK 番組表API", value:"&#xe936;", color:"28,98,158"},
 	{label:"salesforce", value:"&#xe917;", color:"16,154,215"},
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
