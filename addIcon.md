@@ -62,6 +62,11 @@
     <option value=[背景色]>[表示ラベル]</option>
     <option value="2,140,176">サービス：Wordpress</option>
 
+### 固定サービスタスクアイコン
+Flash版モデラ―から、HTML版に移行するにあたって、同等のアイコンの Base64 をコピペできるようにしたもの。
+
+ - 登録は [/src/js/static-icons.js](https://github.com/Questetra/Icon-Maker/blob/master/src/js/static-icons.js) で行っている
+
 ## 環境構築
 
   1. GitHub から
