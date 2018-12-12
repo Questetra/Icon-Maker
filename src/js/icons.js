@@ -56,6 +56,7 @@ var icons = [
 	{label:"typetalk", value:"&#xe96e;", color:"252,99,71"},
 	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
 	{label:"zendesk", value:"&#xe943;", color:"2,54,61"},
+	{label:"Wordpress", value:"&#xe956;", color:"2,140,176"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"},
 	{label:"その他のクラウド連携", value:"&#xe93d;", color:"0,153,0"},
 	{label:"BPMN", value:"&#xe945;", color:"0,153,0"},
