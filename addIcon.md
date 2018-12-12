@@ -3,16 +3,17 @@
 ### 構成
 
 - アイコンフォント：Questetra-Icon-Font-A
-    - アイコン部分の描画に使用
+    - アイコン部分の描画に使用しているフォント
     - [IcoMoon](https://icomoon.io/) というサービスを使って構成
         - IcoMoon では、1フォント = 1プロジェクト（以下 IcoMoon プロジェクト） で管理する
             - IcoMoon プロジェクトは インポート/エクスポート（バックアップ）が可能、[/src/font/Addon.json](https://github.com/Questetra/Icon-Maker/blob/master/src/font/Addon.json) としてリポジトリに保管している
         - Font Awesome ほか、メジャーブランドなどのアイコンがある程度使える
-    - IcoMoon で生成・ダウンロードしたファイルは、そのまま [src/font/Questetra-Icon-Font-A](https://github.com/Questetra/Icon-Maker/tree/master/src/font/Questetra-Icon-Font-A)として配置している
+    - IcoMoon で生成・ダウンロードしたファイルは、そのまま解凍して [src/font/Questetra-Icon-Font-A](https://github.com/Questetra/Icon-Maker/tree/master/src/font/Questetra-Icon-Font-A)として配置
+    - フォントの実体は [/src/font/Questetra-Icon-Font-A/fonts/](https://github.com/Questetra/Icon-Maker/tree/master/src/font/Questetra-Icon-Font-A/fonts)
 - アイコンをリストしている JSON ファイル
-    - 使用するアイコンを Javascript にリストする
+    - 使用するアイコンを登録するファイル
     - [/src/js/icons.js](https://github.com/Questetra/Icon-Maker/blob/master/src/js/icons.js)
-- 操作画面
+- 操作UI
     - HTML
     - [/docs/index.html](https://github.com/Questetra/Icon-Maker/blob/master/docs/index.html)
     - 背景色の選択肢を追加する場合に、OPTION 項目を追加する
@@ -21,16 +22,17 @@
 
 1. アイコンフォントを編集する
     - IcoMoon にログインする
-    - プロジェクト「Addon」が無い場合はインポートする
+    - IcoMoon プロジェクト「Addon」が無い場合はインポートする
     - 追加するアイコンを追加する
+        - フリーのアイコンで使用したいものがあれば、選択する
         - 独自のアイコンを追加したい場合は SVG ファイルをインポートする
             - Illustrator で アイコンを作成し、SVG形式で保存する
             - /src/font/svg/... にあるファイルを参考にする
-    - Create Font
+    - Genarate Font
         - Preferrences でバージョンを変更する
         - ダウンロードする
         - 解凍したフォルダごと /src/font/Questetra-Icon-Font-A/ に上書きする
-    - プロジェクトファイルもダウンロードする
+    - IcoMoon プロジェクトファイルもダウンロードする
         - /src/font/Addon.json に上書き（バックアップ）
 2. [/src/js/icons.js](https://github.com/Questetra/Icon-Maker/blob/master/src/js/icons.js) を編集する
     - キャラクターコードは /src/font/Questetra-Icon-Font-A/demo.html を参照する
@@ -62,7 +64,8 @@
 
 ## 環境構築
 
-  1. GitHub から pull
+  1. GitHub から
+      - pull origin master (最初)
   2. Node.js, npm, grunt-cli の確認
 
 
