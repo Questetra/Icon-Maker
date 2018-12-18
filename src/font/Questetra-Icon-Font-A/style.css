@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?jsv6o9') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?jsv6o9') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?jsv6o9#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?aluoog') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?aluoog') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?aluoog#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,6 +41,32 @@ i {
 }
 .qia-uniE964:before {
   content: "\e964";
+}
+.qia-Hubspot:before {
+  content: "\e976";
+}
+.qia-aws:before {
+  content: "\e977";
+}
+.qia-LineWorks .path1:before {
+  content: "\e971";
+  color: rgb(0, 0, 0);
+}
+.qia-LineWorks .path2:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.qia-LineWorks .path3:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(0, 199, 60);
+  opacity: 0.6;
+}
+.qia-LineWorks .path4:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(0, 199, 60);
 }
 .qia-MFCloud:before {
   content: "\e970";
@@ -337,6 +363,10 @@ i {
   content: "\e933";
   color: #00c300;
 }
+.qia-linkedin:before {
+  content: "\e975";
+  color: #0077b5;
+}
 .qia-paypal2:before {
   content: "\e93e";
   color: #00457c;
@@ -344,6 +374,14 @@ i {
 .qia-pintarest:before {
   content: "\e93f";
   color: #bd081c;
+}
+.qia-brand1:before {
+  content: "\e978";
+  color: #34a7c1;
+}
+.qia-quora:before {
+  content: "\e979";
+  color: #b92b27;
 }
 .qia-slack2:before {
   content: "\e946";
@@ -353,11 +391,15 @@ i {
   content: "\e949";
   color: #1ed760;
 }
+.qia-stackoverflow:before {
+  content: "\e97a";
+  color: #fe7a16;
+}
 .qia-ted:before {
   content: "\e94a";
   color: #e62b1e;
 }
-.qia-brand70:before {
+.qia-twilio:before {
   content: "\e94e";
   color: #f22f46;
 }
@@ -384,7 +426,7 @@ i {
   content: "\e95b";
   color: #cd201f;
 }
-.qia-brand:before {
+.qia-zendesk:before {
   content: "\e943";
 }
 .qia-slack:before {
