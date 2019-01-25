@@ -39,7 +39,7 @@ var icons = [
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
 	//{label:"Drupal", value:"&#xf1a9;", color:"40,169,224"},
-	//{label:"freee", value:"&#xe926;", color:"60,110,176"},
+	{label:"freee", value:"&#xe977;", color:"60,110,176"},
 	{label:"GitHub", value:"&#xe926;", color:"36,41,46"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
