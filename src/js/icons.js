@@ -64,7 +64,7 @@ var icons = [
 	{label:"Questetra", value:"&#xe961;", color:"0,153,0"},
 	{label:"Quora", value:"&#xe979;", color:"185,43,39"},
 	{label:"Salesforce", value:"&#xe917;", color:"16,154,215"},
-	{label:"Slack", value:"&#xe946;", color:"120,212,182"},
+	{label:"Slack", value:"&#xe97c;", color:"74,21,75"},
 	{label:"Stack Overflow", value:"&#xe97a;", color:"254,122,23"},
 	{label:"Stripe", value:"&#xe92c;", color:"62,138,198"},
 	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
