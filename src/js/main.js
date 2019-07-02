@@ -12,16 +12,16 @@
     var bgdolor = {};
 
     var canvases = [{
-        id: "canvas-1200x630",
+        id: "canvas-1200x675",
         ctx: null,
         size: {
           width: 1200,
-          height: 630,
+          height: 675,
           padding: 60
         },
         viewSize: {
           width: 300,
-          height: 157.5
+          height: 168.75
         },
         withSub: 1,
         title: {
