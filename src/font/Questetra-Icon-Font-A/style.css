@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?qybbw9') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?qybbw9') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?qybbw9#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?vi16ba') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?vi16ba') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?vi16ba#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -43,14 +43,23 @@ i {
 .qia-uniE964:before {
   content: "\e964";
 }
+.qia-Google-Sheets-black:before {
+  content: "\e901";
+}
+.qia-Google-Documents-black:before {
+  content: "\e90e";
+}
+.qia-Google-Slides-black:before {
+  content: "\e90f";
+}
+.qia-Google-Photo:before {
+  content: "\e910";
+}
+.qia-slack:before {
+  content: "\e913";
+}
 .qia-Google-Cloud-Platform:before {
   content: "\e97d";
-}
-.qia-Google-Slides:before {
-  content: "\e97e";
-}
-.qia-Slack:before {
-  content: "\e97c";
 }
 .qia-docusign-icon:before {
   content: "\e97b";
