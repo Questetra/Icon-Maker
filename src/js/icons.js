@@ -49,6 +49,7 @@ var icons = [
 	{label:"Google Cloud Print", value:"&#xe923;", color:"87,127,192"},
 	{label:"Google Documents", value:"&#xe90e;", color:"56,125,245"},
 	{label:"Google Drive", value:"&#xe92a;", color:"72,136,247"},
+	{label:"Google Fit", value:"&#xe918;", color:"72,136,247"},
 	{label:"Google Groups", value:"&#xe935;", color:"65,105,255"},
 	{label:"Google Hangouts Chat", value:"&#xe96c;", color:"0,137,123"},
 	{label:"Google Photo", value:"&#xe910;", color:"72,136,247"},

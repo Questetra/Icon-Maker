@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?27qy6e') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?27qy6e') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?27qy6e#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?8ptuzi') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?8ptuzi') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?8ptuzi#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -42,6 +42,10 @@ i {
 }
 .qia-uniE964:before {
   content: "\e964";
+}
+.qia-GoogleFit-2-480:before {
+  content: "\e918";
+  color: #4788f1;
 }
 .qia-SendGrid-480:before {
   content: "\e90f";
