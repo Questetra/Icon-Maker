@@ -63,6 +63,7 @@ var icons = [
 	{label:"Google Slides", value:"&#xe915;", color:"238,176,3"},
 	{label:"Hubspot", value:"&#xe976;", color:"255,122,89"},
 	{label:"Kintone", value:"&#xe914;", color:"252,184,0"},
+	{label:"Kintone.com", value:"&#xe91f;", color:"240,63,36"},
 	{label:"Line", value:"&#xe933;", color:"0,195,0"},
 	{label:"Line Works", value:"&#xe972;", color:"3,199,60"},
 	{label:"LinkedIn", value:"&#xe975;", color:"0,119,181"},

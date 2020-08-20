@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?ww9ft7') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?ww9ft7') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?ww9ft7#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?95y2xp') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?95y2xp') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?95y2xp#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Questetra-Icon-Font-A' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -49,7 +49,10 @@ i {
 .qia-uniE964:before {
   content: "\e964";
 }
-.qia-GoogleAds:before {
+.qia-kintone-com:before {
+  content: "\e91f";
+}
+.qia-GoogleAds-240:before {
   content: "\e91e";
   color: #fbbc04;
 }
