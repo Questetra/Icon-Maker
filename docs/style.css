@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?w3tq9l') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?w3tq9l') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?w3tq9l#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?qjmr2c') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?qjmr2c') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?qjmr2c#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -49,50 +49,14 @@ i {
 .qia-uniE964:before {
   content: "\e964";
 }
+.qia-tempo_matic1:before {
+  content: "\e924";
+}
 .qia-PowerAutomate:before {
   content: "\e920";
 }
 .qia-microsoftoutlook:before {
   content: "\e922";
-}
-.qia-tempo_matic .path1:before {
-  content: "\e924";
-  color: rgb(0, 0, 0);
-}
-.qia-tempo_matic .path2:before {
-  content: "\e925";
-  margin-left: -1em;
-  color: rgb(182, 219, 180);
-}
-.qia-tempo_matic .path3:before {
-  content: "\e927";
-  margin-left: -1em;
-  color: rgb(244, 170, 117);
-}
-.qia-tempo_matic .path4:before {
-  content: "\e928";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.qia-tempo_matic .path5:before {
-  content: "\e92b";
-  margin-left: -1em;
-  color: rgb(243, 161, 104);
-}
-.qia-tempo_matic .path6:before {
-  content: "\e92c";
-  margin-left: -1em;
-  color: rgb(247, 199, 158);
-}
-.qia-tempo_matic .path7:before {
-  content: "\e92d";
-  margin-left: -1em;
-  color: rgb(247, 191, 148);
-}
-.qia-tempo_matic .path8:before {
-  content: "\e92e";
-  margin-left: -1em;
-  color: rgb(244, 169, 126);
 }
 .qia-kintone-com:before {
   content: "\e91f";
