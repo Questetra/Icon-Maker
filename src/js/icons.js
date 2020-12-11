@@ -49,6 +49,8 @@ var icons = [
 	{label:"freee", value:"&#xe977;", color:"60,110,176"},
 	{label:"GitHub", value:"&#xe926;", color:"36,41,46"},
 	{label:"Google Ads", value:"&#xe91e;", color:"243,182,29"},
+	{label:"Gmail 1", value:"&#xe925;", color:"234,67,53"},
+	{label:"Gmail 2", value:"&#xe92d;", color:"234,67,53"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
 	{label:"Google Cloud Platform", value:"&#xe97d;", color:"66,133,244"},
