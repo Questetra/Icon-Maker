@@ -65,6 +65,7 @@ var icons = [
 	{label:"Google Sheets", value:"&#xe901;", color:"16,157,68"},
 	{label:"Google Translate", value:"&#xe927;", color:"66,133,244"},
 	{label:"Hubspot", value:"&#xe976;", color:"255,122,89"},
+	{label:"Image Charts", value:"&#xe92b;", color:"39,48,120"},
 	{label:"Kintone", value:"&#xe914;", color:"252,184,0"},
 	{label:"Kintone.com", value:"&#xe91f;", color:"240,63,36"},
 	{label:"Line", value:"&#xe933;", color:"0,195,0"},
