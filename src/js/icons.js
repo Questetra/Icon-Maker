@@ -63,6 +63,7 @@ var icons = [
 	{label:"Google Hangouts Chat", value:"&#xe96c;", color:"0,137,123"},
 	{label:"Google Photo", value:"&#xe910;", color:"72,136,247"},
 	{label:"Google Sheets", value:"&#xe901;", color:"16,157,68"},
+	{label:"Google Slides", value:"&#xe915;", color:"238,176,3"},
 	{label:"Google Translate", value:"&#xe927;", color:"66,133,244"},
 	{label:"Hubspot", value:"&#xe976;", color:"255,122,89"},
 	{label:"Image Charts", value:"&#xe92b;", color:"39,48,120"},
