@@ -56,6 +56,7 @@ var icons = [
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google BigQuery", value:"&#xe92c;", color:"66,133,244"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
+	{label:"Google Chat", value:"&#xe931;", color:"66,133,244"},
 	{label:"Google Cloud Platform", value:"&#xe97d;", color:"66,133,244"},
 	{label:"Google Cloud Print", value:"&#xe923;", color:"87,127,192"},
 	{label:"Google Documents", value:"&#xe90e;", color:"56,125,245"},
