@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Addon",
     "lastOpened": 0,
-    "created": 1647995584578
+    "created": 1652430269653
   },
   "iconSets": [
     {
@@ -328,12 +328,20 @@
     {
       "selection": [
         {
+          "order": 311,
+          "id": 63,
+          "name": "powerautomate",
+          "prevSize": 32,
+          "code": 59778,
+          "tempChar": ""
+        },
+        {
           "order": 310,
           "id": 62,
           "name": "googletagmanager",
           "prevSize": 32,
           "code": 59698,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 309,
@@ -341,7 +349,7 @@
           "name": "instagram",
           "prevSize": 32,
           "code": 59711,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 308,
@@ -349,7 +357,7 @@
           "name": "messenger",
           "prevSize": 32,
           "code": 59713,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 307,
@@ -357,7 +365,7 @@
           "name": "zoho",
           "prevSize": 32,
           "code": 59718,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 306,
@@ -365,7 +373,7 @@
           "name": "pingdom",
           "prevSize": 32,
           "code": 59721,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 305,
@@ -373,7 +381,7 @@
           "name": "mailchimp",
           "prevSize": 32,
           "code": 59722,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 304,
@@ -381,7 +389,7 @@
           "name": "adobesign",
           "prevSize": 32,
           "code": 59729,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 303,
@@ -389,7 +397,7 @@
           "name": "zoom",
           "prevSize": 32,
           "code": 59731,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 302,
@@ -404,10 +412,10 @@
             59742
           ],
           "tempChar": [
-            "",
             "",
             "",
-            ""
+            "",
+            ""
           ]
         },
         {
@@ -429,7 +437,6 @@
             59777
           ],
           "tempChar": [
-            "",
             "",
             "",
             "",
@@ -438,7 +445,8 @@
             "",
             "",
             "",
-            ""
+            "",
+            ""
           ]
         },
         {
@@ -447,7 +455,7 @@
           "name": "googlechat",
           "prevSize": 32,
           "code": 59697,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 299,
@@ -455,7 +463,7 @@
           "name": "bigquery",
           "prevSize": 32,
           "code": 59692,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 298,
@@ -463,7 +471,7 @@
           "name": "airtable",
           "prevSize": 32,
           "code": 59696,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 297,
@@ -471,7 +479,7 @@
           "name": "Image-Charts",
           "prevSize": 32,
           "code": 59691,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 296,
@@ -479,7 +487,7 @@
           "name": "DeepL",
           "prevSize": 32,
           "code": 59688,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 295,
@@ -487,7 +495,7 @@
           "name": "googletranslate",
           "prevSize": 32,
           "code": 59687,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -542,7 +550,7 @@
           "name": "Gmail_2020",
           "prevSize": 32,
           "code": 59685,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 288,
@@ -558,8 +566,8 @@
             59698
           ],
           "tempChar": [
-            "",
-            ""
+            "",
+            ""
           ]
         },
         {
@@ -568,7 +576,7 @@
           "name": "PowerAutomate1",
           "prevSize": 32,
           "code": 59680,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 283,
@@ -576,7 +584,7 @@
           "name": "tempo_matic1",
           "prevSize": 32,
           "code": 59684,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -592,7 +600,7 @@
           "name": "microsoftoutlook",
           "prevSize": 32,
           "code": 59682,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -615,7 +623,7 @@
           "name": "kintone-com",
           "prevSize": 32,
           "code": 59679,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 275,
@@ -623,7 +631,7 @@
           "name": "GoogleAds-240",
           "prevSize": 32,
           "code": 59678,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -639,7 +647,7 @@
           "name": "Office365",
           "prevSize": 32,
           "code": 59676,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -664,7 +672,7 @@
           "name": "GoogleFit-2-480",
           "prevSize": 32,
           "code": 59672,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 262,
@@ -672,7 +680,7 @@
           "name": "SendGrid-480",
           "prevSize": 32,
           "code": 59663,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -701,7 +709,7 @@
           "name": "google-slide-bk",
           "prevSize": 32,
           "code": 59669,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 258,
@@ -709,7 +717,7 @@
           "name": "Google-Sheets-black",
           "prevSize": 32,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 257,
@@ -717,7 +725,7 @@
           "name": "Google-Documents-black",
           "prevSize": 32,
           "code": 59662,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -733,7 +741,7 @@
           "name": "Google-Photo",
           "prevSize": 32,
           "code": 59664,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 254,
@@ -741,7 +749,7 @@
           "name": "slack",
           "prevSize": 32,
           "code": 59667,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -776,7 +784,7 @@
           "name": "Google-Cloud-Platform",
           "prevSize": 32,
           "code": 59773,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -805,7 +813,7 @@
           "name": "docusign-icon",
           "prevSize": 32,
           "code": 59771,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 235,
@@ -813,7 +821,7 @@
           "name": "freee",
           "prevSize": 32,
           "code": 59767,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 234,
@@ -821,7 +829,7 @@
           "name": "UiPath-icon",
           "prevSize": 32,
           "code": 59763,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 232,
@@ -829,7 +837,7 @@
           "name": "line_works",
           "prevSize": 32,
           "code": 59762,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 231,
@@ -837,7 +845,7 @@
           "name": "aws-brands",
           "prevSize": 32,
           "code": 59761,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -868,7 +876,7 @@
           "name": "Hubspot",
           "prevSize": 32,
           "code": 59766,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -903,7 +911,7 @@
           "name": "MFCloud",
           "prevSize": 32,
           "code": 59760,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -919,7 +927,7 @@
           "name": "TypeTalk1",
           "prevSize": 32,
           "code": 59758,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -935,7 +943,7 @@
           "name": "HangoutsChat",
           "prevSize": 32,
           "code": 59756,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 194,
@@ -943,7 +951,7 @@
           "name": "questetra2018",
           "prevSize": 32,
           "code": 59745,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 17,
@@ -957,6 +965,21 @@
       "height": 1024,
       "prevSize": 32,
       "icons": [
+        {
+          "id": 63,
+          "paths": [
+            "M11.008 176.725c-24.704-27.563-5.12-71.339 31.872-71.339h603.264l-349.483 390.613-285.653-319.275zM842.411 292.693l-154.837-173.056c-4.261-4.699-9.506-8.424-15.417-10.862l-0.284-0.104-660.864 738.603c-24.661 27.563-5.12 71.339 31.915 71.339h239.488l560-625.92zM1013.077 483.456l-156.373-174.763-545.707 609.92h344.704c12.16 0 23.765-5.205 31.915-14.251l325.504-363.819c14.507-16.256 14.507-40.832-0.043-57.088z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "powerautomate"
+          ]
+        },
         {
           "id": 62,
           "paths": [
@@ -2372,7 +2395,7 @@
           "name": "notebook",
           "prevSize": 32,
           "code": 59746,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -2380,7 +2403,7 @@
           "prevSize": 32,
           "code": 59743,
           "name": "document-file-pdf",
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 16,
@@ -2454,7 +2477,7 @@
           "name": "Service-Task-Icon",
           "prevSize": 32,
           "code": 59738,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 15,
@@ -2579,7 +2602,7 @@
           "order": 266,
           "prevSize": 28,
           "code": 61447,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "film",
@@ -2787,7 +2810,7 @@
           "order": 198,
           "prevSize": 28,
           "code": 61485,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "bookmark",
@@ -2810,7 +2833,7 @@
           "order": 264,
           "prevSize": 28,
           "code": 61489,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "bold",
@@ -2858,7 +2881,7 @@
           "order": 164,
           "prevSize": 28,
           "code": 61498,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "dedent, outdent",
@@ -2886,7 +2909,7 @@
           "order": 187,
           "prevSize": 28,
           "code": 61504,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "map-marker",
@@ -2909,7 +2932,7 @@
           "order": 186,
           "prevSize": 28,
           "code": 61508,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "share-square-o",
@@ -3487,7 +3510,7 @@
           "order": 265,
           "prevSize": 28,
           "code": 61646,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "magic",
@@ -3610,7 +3633,7 @@
           "order": 267,
           "prevSize": 28,
           "code": 61672,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "umbrella",
@@ -3633,7 +3656,7 @@
           "order": 217,
           "prevSize": 28,
           "code": 61676,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "cloud-download",
@@ -4066,7 +4089,7 @@
           "order": 196,
           "prevSize": 28,
           "code": 61771,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "external-link-square",
@@ -4454,7 +4477,7 @@
           "order": 199,
           "prevSize": 28,
           "code": 61853,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "yahoo",
@@ -4669,7 +4692,7 @@
           "order": 190,
           "prevSize": 28,
           "code": 61897,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -16231,7 +16254,7 @@
           "prevSize": 20,
           "code": 59736,
           "name": "question",
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 13,
@@ -16485,7 +16508,7 @@
           "name": "Ques11",
           "prevSize": 32,
           "code": 59733,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 160,
@@ -16493,7 +16516,7 @@
           "name": "Ques08",
           "prevSize": 32,
           "code": 59735,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 159,
@@ -16501,7 +16524,7 @@
           "name": "Ques01",
           "prevSize": 32,
           "code": 59727,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 158,
@@ -16509,7 +16532,7 @@
           "name": "Takeo",
           "prevSize": 32,
           "code": 59720,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 157,
@@ -16517,7 +16540,7 @@
           "name": "Onesan",
           "prevSize": 32,
           "code": 59723,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 156,
@@ -16525,7 +16548,7 @@
           "name": "Onigiri",
           "prevSize": 32,
           "code": 59724,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 155,
@@ -16533,7 +16556,7 @@
           "name": "Obachan",
           "prevSize": 32,
           "code": 59725,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 153,
@@ -16541,7 +16564,7 @@
           "name": "BPMN",
           "prevSize": 32,
           "code": 59717,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 152,
@@ -16549,7 +16572,7 @@
           "name": "ChatWork",
           "prevSize": 32,
           "code": 59716,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -16565,7 +16588,7 @@
           "name": "backlog",
           "prevSize": 32,
           "code": 59705,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 137,
@@ -16573,7 +16596,7 @@
           "name": "CardB",
           "prevSize": 32,
           "code": 59665,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 133,
@@ -16581,7 +16604,7 @@
           "name": "GoogleSheets",
           "prevSize": 32,
           "code": 59666,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 132,
@@ -16589,7 +16612,7 @@
           "name": "Kintone",
           "prevSize": 32,
           "code": 59668,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 131,
@@ -16597,7 +16620,7 @@
           "name": "salesforce",
           "prevSize": 32,
           "code": 59671,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 130,
@@ -16605,7 +16628,7 @@
           "name": "MyNumber",
           "prevSize": 32,
           "code": 59673,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 129,
@@ -16613,7 +16636,7 @@
           "name": "boxB",
           "prevSize": 32,
           "code": 59674,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -16629,7 +16652,7 @@
           "name": "GoogleCloudPrint",
           "prevSize": 32,
           "code": 59683,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -16653,7 +16676,7 @@
           "name": "StripeA",
           "prevSize": 32,
           "code": 59695,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 123,
@@ -16661,7 +16684,7 @@
           "name": "GoogleCalender",
           "prevSize": 32,
           "code": 59700,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 122,
@@ -16669,7 +16692,7 @@
           "name": "GoogleGroup",
           "prevSize": 32,
           "code": 59701,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 121,
@@ -16677,7 +16700,7 @@
           "name": "NHK",
           "prevSize": 32,
           "code": 59702,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 10,
@@ -17278,7 +17301,7 @@
           "name": "folder",
           "prevSize": 32,
           "code": 59714,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 149,
@@ -17286,7 +17309,7 @@
           "name": "CloudAndThunder",
           "prevSize": 32,
           "code": 59709,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 148,
@@ -17294,7 +17317,7 @@
           "name": "Thunder",
           "prevSize": 32,
           "code": 59712,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -17310,7 +17333,7 @@
           "name": "gear",
           "prevSize": 32,
           "code": 59708,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 141,
@@ -17318,7 +17341,7 @@
           "name": "Download",
           "prevSize": 32,
           "code": 59706,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 136,
@@ -17326,7 +17349,7 @@
           "name": "FxC",
           "prevSize": 32,
           "code": 59703,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 108,
@@ -17334,7 +17357,7 @@
           "name": "info",
           "prevSize": 32,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -17350,7 +17373,7 @@
           "name": "cal",
           "prevSize": 32,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 105,
@@ -17358,7 +17381,7 @@
           "name": "doc",
           "prevSize": 32,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 106,
@@ -17366,7 +17389,7 @@
           "name": "chat",
           "prevSize": 32,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 107,
@@ -17374,7 +17397,7 @@
           "name": "plug",
           "prevSize": 32,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -17402,7 +17425,7 @@
           "name": "mail",
           "prevSize": 32,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 110,
@@ -17410,7 +17433,7 @@
           "name": "filter",
           "prevSize": 32,
           "code": 59655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 111,
@@ -17418,7 +17441,7 @@
           "name": "axe",
           "prevSize": 32,
           "code": 59656,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 112,
@@ -17426,7 +17449,7 @@
           "name": "up",
           "prevSize": 32,
           "code": 59657,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 113,
@@ -17434,7 +17457,7 @@
           "name": "calc",
           "prevSize": 32,
           "code": 59658,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 114,
@@ -17442,7 +17465,7 @@
           "name": "trash",
           "prevSize": 32,
           "code": 59659,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -17460,7 +17483,7 @@
           "name": "strage",
           "prevSize": 32,
           "code": 59660,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 9,
@@ -18187,7 +18210,7 @@
           "prevSize": 32,
           "code": 59661,
           "name": "amazon",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 7,
@@ -18299,7 +18322,7 @@
           "prevSize": 32,
           "code": 59670,
           "name": "blogger",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 26,
@@ -18467,7 +18490,7 @@
           "prevSize": 32,
           "code": 59677,
           "name": "dropbox2",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 61,
@@ -18527,7 +18550,7 @@
           "prevSize": 32,
           "code": 59681,
           "name": "facebook",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 72,
@@ -18599,7 +18622,7 @@
           "prevSize": 32,
           "code": 59686,
           "name": "github",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 85,
@@ -18643,7 +18666,7 @@
           "prevSize": 32,
           "code": 59689,
           "name": "google-analy",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 93,
@@ -18651,7 +18674,7 @@
           "prevSize": 32,
           "code": 59690,
           "name": "google-doc",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 94,
@@ -18867,7 +18890,7 @@
           "prevSize": 32,
           "code": 59699,
           "name": "line",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 139,
@@ -18875,7 +18898,7 @@
           "prevSize": 32,
           "code": 59765,
           "name": "linkedin",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 140,
@@ -18959,7 +18982,7 @@
           "prevSize": 32,
           "code": 59704,
           "name": "brand48",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 157,
@@ -18983,7 +19006,7 @@
           "prevSize": 32,
           "code": 59707,
           "name": "brand51",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 160,
@@ -18991,7 +19014,7 @@
           "prevSize": 32,
           "code": 59710,
           "name": "brand52",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 161,
@@ -19055,7 +19078,7 @@
           "prevSize": 32,
           "code": 59764,
           "name": "onedrive",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 175,
@@ -19175,7 +19198,7 @@
           "prevSize": 32,
           "code": 59769,
           "name": "quora",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 199,
@@ -19367,7 +19390,7 @@
           "prevSize": 32,
           "code": 59770,
           "name": "stackoverflow",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 238,
@@ -19503,7 +19526,7 @@
           "prevSize": 32,
           "code": 59726,
           "name": "twilio",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 267,
@@ -19519,7 +19542,7 @@
           "prevSize": 32,
           "code": 59728,
           "name": "twitter",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 269,
@@ -19563,7 +19586,7 @@
           "prevSize": 32,
           "code": 59730,
           "name": "viemo",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 278,
@@ -19627,7 +19650,7 @@
           "prevSize": 32,
           "code": 59734,
           "name": "wp",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 290,
@@ -19679,7 +19702,7 @@
           "prevSize": 32,
           "code": 59739,
           "name": "youtube",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 298,
@@ -19691,7 +19714,7 @@
           "prevSize": 32,
           "code": 59715,
           "name": "zendesk",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 300,
@@ -25191,7 +25214,7 @@
           "prevSize": 32,
           "code": 59749,
           "name": "clock",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -25215,7 +25238,7 @@
           "name": "paypal",
           "prevSize": 32,
           "code": 59744,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -25395,7 +25418,7 @@
           "prevSize": 28,
           "code": 59737,
           "name": "newspaper-o",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -25776,7 +25799,7 @@
           "prevSize": 32,
           "code": 59752,
           "name": "tools",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -25892,7 +25915,7 @@
       "metadata": {
         "fontFamily": "Questetra-Icon-Font-A",
         "majorVersion": 2,
-        "minorVersion": 7
+        "minorVersion": 8
       },
       "metrics": {
         "emSize": 1024,

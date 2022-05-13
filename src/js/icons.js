@@ -85,7 +85,7 @@ var icons = [
 	{label:"Microsoft Excel", value:"&#xe938;", color:"33,115,70"},
 	{label:"Microsoft Office365", value:"&#xe91c;", color:"235,59,0"},
 	{label:"Microsoft Outlook", value:"&#xe922;", color:"0,120,228"},
-	{label:"Microsoft PowerAutomate", value:"&#xe920;", color:"0,102,255"},
+	{label:"Microsoft PowerAutomate", value:"&#xe982;", color:"0,102,255"},
 	{label:"Microsoft PowerPoint", value:"&#xe93b;", color:"210,71,38"},
 	{label:"Microsoft Teams", value:"&#xe96a;", color:"85,88,175"},
 	{label:"Microsoft Word", value:"&#xe93e;", color:"42,87,154"},
