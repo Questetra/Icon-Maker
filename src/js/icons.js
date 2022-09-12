@@ -43,6 +43,7 @@ var icons = [
 	{label:"Backlog", value:"&#xe939;", color:"66,206,159"},
 	{label:"Blogger", value:"&#xe916;", color:"255,87,34"},
 	{label:"Box", value:"&#xe91a;", color:"0,97,213"},
+	{label:"Box Sign", value:"&#xe984;", color:"0,60,132"},
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
 	{label:"DeepL", value:"&#xe928;", color:"14,43,70"},
 	{label:"DocuSign", value:"&#xe97b;", color:"4,92,185"},
