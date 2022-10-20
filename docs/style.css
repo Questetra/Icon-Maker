@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?l2pdya') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?l2pdya') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?l2pdya#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?fnptza') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?fnptza') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?fnptza#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -48,6 +48,27 @@ i {
 }
 .qia-uniE964:before {
   content: "\e964";
+}
+.qia-microsoftpowerpoint:before {
+  content: "\e985";
+}
+.qia-microsoftexcel:before {
+  content: "\e986";
+}
+.qia-microsoftword:before {
+  content: "\e987";
+}
+.qia-microsoftoffice:before {
+  content: "\e988";
+}
+.qia-microsoftteams:before {
+  content: "\e989";
+}
+.qia-microsoft:before {
+  content: "\e98a";
+}
+.qia-microsoftsharepoint:before {
+  content: "\e98b";
 }
 .qia-box-sign:before {
   content: "\e984";
