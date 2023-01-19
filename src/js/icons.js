@@ -45,6 +45,7 @@ var icons = [
 	{label:"Box", value:"&#xe91a;", color:"0,97,213"},
 	{label:"Box Sign", value:"&#xe984;", color:"0,60,132"},
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
+	{label:"ClimberCloud", value:"&#xe98c;", color:"60,156,220"},
 	{label:"DeepL", value:"&#xe928;", color:"14,43,70"},
 	{label:"DocuSign", value:"&#xe97b;", color:"4,92,185"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
