@@ -96,6 +96,7 @@ var icons = [
 	{label:"MF クラウド", value:"&#xe970;", color:"0,84,172"},
 	{label:"NHK 番組表API", value:"&#xe936;", color:"28,98,158"},
 	{label:"OneDrive", value:"&#xe974;", color:"9,74,178"},
+	{label:"OpenAI", value:"&#xe98d;", color:"16,163,127"},
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
 	{label:"Pingdom", value:"&#xe949;", color:"255,240,0"},
 	//{label:"Questetra", value:"&#xe93b;", color:"0,153,0"},

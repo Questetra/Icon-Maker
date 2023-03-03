@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?e3liko') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?e3liko') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?e3liko#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?1s05x3') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?1s05x3') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?1s05x3#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -48,6 +48,9 @@ i {
 }
 .qia-uniE964:before {
   content: "\e964";
+}
+.qia-openai_logo:before {
+  content: "\e98d";
 }
 .qia-ClimberCloud:before {
   content: "\e98c";
