@@ -47,6 +47,7 @@ var icons = [
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
 	{label:"ClimberCloud", value:"&#xe98c;", color:"60,156,220"},
 	{label:"DeepL", value:"&#xe928;", color:"14,43,70"},
+	{label:"DocRaptor", value:"&#xe98e;", color:"56,119,177"},
 	{label:"DocuSign", value:"&#xe97b;", color:"4,92,185"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
 	//{label:"Drupal", value:"&#xf1a9;", color:"40,169,224"},
