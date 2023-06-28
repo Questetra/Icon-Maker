@@ -109,6 +109,7 @@ var icons = [
 	{label:"Stack Overflow", value:"&#xe97a;", color:"254,122,23"},
 	{label:"Stripe", value:"&#xe983;", color:"99,91,255"},
 	{label:"Stripe_old", value:"&#xe92f;", color:"62,138,198"},
+	{label:"Trello", value:"&#xe98f;", color:"0,82,204"},
 	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
 	{label:"Twitter", value:"&#xe950;", color:"32,161,242"},
 	{label:"Typetalk", value:"&#xe96e;", color:"252,99,71"},
