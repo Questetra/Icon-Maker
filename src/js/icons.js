@@ -35,6 +35,7 @@ var icons = [
 	{label:"ロボット", value:"&#xe969;", color:""},
 	{label:"ユーザ", value:"&#xf007;", color:""},
 	{label:"組織", value:"&#xf0e8;", color:""},
+	{label:"Adobe", value:"&#xe990;", color:"255,0,0"},
 	{label:"Adobe Sign", value:"&#xe951;", color:"89,76,204"},
 	{label:"Airtable", value:"&#xe930;", color:"24,191,255"},
 	{label:"Amazon", value:"&#xe90d;", color:"255,153,0"},
