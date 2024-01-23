@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?flkeet') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?flkeet') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?flkeet#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?pq24g8') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?pq24g8') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?pq24g8#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -48,6 +48,10 @@ i {
 }
 .qia-uniE964:before {
   content: "\e964";
+}
+.qia-VertexAI:before {
+  content: "\e994";
+  color: #aecbfa;
 }
 .qia-Azure_Cognitive_Services-logo3:before {
   content: "\e991";

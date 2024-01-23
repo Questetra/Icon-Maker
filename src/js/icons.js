@@ -78,6 +78,7 @@ var icons = [
 	{label:"Google Slides", value:"&#xe915;", color:"238,176,3"},
 	{label:"Google Tag Manager", value:"&#xe932;", color:"36,111,219"},
 	{label:"Google Translate", value:"&#xe927;", color:"66,133,244"},
+	{label:"Google Vertex AI", value:"&#xe994;", color:"66,133,244"},
 	{label:"Hubspot", value:"&#xe976;", color:"255,122,89"},
 	{label:"Image Charts", value:"&#xe92b;", color:"39,48,120"},
 	{label:"Instagram", value:"&#xe93f;", color:"228,64,95"},
