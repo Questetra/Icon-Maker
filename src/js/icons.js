@@ -60,6 +60,7 @@ var icons = [
 	{label:"Google Ads", value:"&#xe91e;", color:"243,182,29"},
 	{label:"Gmail 1", value:"&#xe925;", color:"234,67,53"},
 	{label:"Gmail 2", value:"&#xe92d;", color:"234,67,53"},
+	{label:"GMO Sign", value:"&#xe995;", color:"0,91,172"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google BigQuery", value:"&#xe92c;", color:"66,133,244"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
