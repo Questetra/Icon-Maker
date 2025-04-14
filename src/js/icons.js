@@ -33,6 +33,7 @@ var icons = [
 	{label:"ニュース", value:"&#xe959;", color:""},
 	{label:"ツール", value:"&#xe968;", color:""},
 	{label:"ロボット", value:"&#xe969;", color:""},
+	{label:"ロボット2", value:"&#xe996;", color:""},
 	{label:"ユーザ", value:"&#xf007;", color:""},
 	{label:"組織", value:"&#xf0e8;", color:""},
 	{label:"Adobe", value:"&#xe990;", color:"255,0,0"},
