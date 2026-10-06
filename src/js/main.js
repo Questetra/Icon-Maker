@@ -9,14 +9,14 @@
     var subIcon;
     var title;
     var subTitle;
-    var bgdolor = {};
+    var bgColor = {};
 
     var canvases = [{
-        id: "canvas-1200x675",
+        id: "canvas-1200x628",
         ctx: null,
         size: {
           width: 1200,
-          height: 675,
+          height: 628,
           padding: 60
         },
         viewSize: {
@@ -156,13 +156,38 @@
       redraw();
     });
 
+    $('.download-button[data-canvas]').click(function() {
+      var canvas = document.getElementById($(this).data('canvas'));
+      var link = document.createElement('a');
+      link.download = $(this).data('filename');
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    });
+
+    $('#download-base64').click(function() {
+      var content = $('#base64').val().replace(/\s+/g, '');
+      var blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+      var url = URL.createObjectURL(blob);
+      var link = document.createElement('a');
+      link.download = 'img_task-icon-32x32-base64.txt';
+      link.href = url;
+      link.click();
+      window.setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
+    });
+
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     /**
      * UIから設定値をSETする
      **/
     function onChangeBgColor() {
-      var selectVal = $('#bgcolor').val().split(',');
-      bgdolor = {
+      var value = $('#bgcolor').val();
+      $('.canvas-preview').toggleClass('checkerboard', value === 'transparent');
+      if (value === 'transparent') {
+        bgColor = null;
+        return;
+      }
+      var selectVal = value.split(',');
+      bgColor = {
         r: selectVal[0],
         g: selectVal[1],
         b: selectVal[2]
@@ -369,17 +394,22 @@
     function drawBg() {
       for (var i = canvases.length - 1; i >= 0; i--) {
         var ctx = canvases[i].ctx;
-        ctx.fillStyle = 'rgb(' + bgdolor.r + ', ' + bgdolor.g + ', ' + bgdolor.b + ')';
+        if (bgColor) {
+          ctx.fillStyle = 'rgb(' + bgColor.r + ', ' + bgColor.g + ', ' + bgColor.b + ')';
+        }
 
         //console.log(canvases[i].type);
         if (canvases[i].type && canvases[i].type == "icon") {
-          console.log(canvases[i].type);
-          ctx.beginPath();
-          ctx.arc(canvases[i].size.width / 2, canvases[i].size.height / 2, Math.round(canvases[i].size.width / 2) - 1, 0, Math.PI * 2, true);
-          ctx.fill();
-
+          if (bgColor) {
+            console.log(canvases[i].type);
+            ctx.beginPath();
+            ctx.arc(canvases[i].size.width / 2, canvases[i].size.height / 2, Math.round(canvases[i].size.width / 2) - 1, 0, Math.PI * 2, true);
+            ctx.fill();
+          }
         } else {
-          ctx.fillRect(0, 0, canvases[i].size.width, canvases[i].size.height);
+          if (bgColor) {
+            ctx.fillRect(0, 0, canvases[i].size.width, canvases[i].size.height);
+          }
         }
       }
     }
@@ -418,7 +448,9 @@
           var fontPos = calcMainIcon(i);
           ctx.font = fontPos.size + "px '" + iconFont + "'";
           /*
-                ctx.fillStyle = 'rgb(' + Math.round(bgdolor.r * 0.8) + ', ' + Math.round(bgdolor.g * 0.8) + ', ' + Math.round(bgdolor.b * 0.8) + ')';
+                ctx.fillStyle = bgColor
+                  ? 'rgb(' + Math.round(bgColor.r * 0.8) + ', ' + Math.round(bgColor.g * 0.8) + ', ' + Math.round(bgColor.b * 0.8) + ')'
+                  : 'rgba(255, 255, 255, 0.8)';
                 for(var ii = 0; ii < 100; ii++){
 
                     ctx.fillText(mainIcon, fontPos.x + ii, fontPos.y + ii);
@@ -445,7 +477,9 @@
             var fontPos = calcSubIcon(i);
             ctx.font = fontPos.size + "px '" + iconFont + "'";
             ctx.textAlign = "start";
-            ctx.fillStyle = 'rgb(' + bgdolor.r + ', ' + bgdolor.g + ', ' + bgdolor.b + ')';
+            ctx.fillStyle = bgColor
+              ? 'rgb(' + bgColor.r + ', ' + bgColor.g + ', ' + bgColor.b + ')'
+              : 'rgba(255, 255, 255, 0.8)';
 
             for (var ii = 0; ii < 360; ii += 10) {
               var _radian = Math.PI / 180 * ii;

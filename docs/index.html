@@ -9,23 +9,10 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:500,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <style type="text/css">
-    body {
-      margin-top: 60px;
-      font-family: 'Noto Sans JP', sans-serif;
-    }
-    .tab-content{
-      margin-top: 20px;
-    }
-    textarea.base64{
-      font-size: 0.75rem;
-      font-family: 'Source Code Pro', monospace;
-    }
-  </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse app-navbar">
     <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,7 +25,7 @@
       </ul>
     </div>
   </nav>
-  <div class="container-fluid">
+  <main class="container-fluid app-shell">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Icon Maker
@@ -50,13 +37,27 @@
       </li>
     </ul>
     <div class="tab-content">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        <div class="row">
+      <div class="tab-pane fade show active app-panel" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <header class="page-heading">
+          <div>
+            <p class="eyebrow">QUESTETRA DESIGN TOOL</p>
+            <h1>Icon Maker</h1>
+            <p class="page-description">背景色やアイコン、タイトルを組み合わせて画像を作成します。</p>
+          </div>
+          <span class="privacy-badge"><span></span> ブラウザー内で作成</span>
+        </header>
+        <section class="control-section" aria-label="アイコンの設定">
+          <div class="section-heading">
+            <div><p class="eyebrow">CUSTOMIZE</p><h2>デザインを設定</h2></div>
+            <p>各項目を変更すると、プレビューに反映されます。</p>
+          </div>
+        <div class="row control-grid">
           <div class="col">
             <div class="form-group">
-              <label for="exampleSelect1">背景色のテーマ</label>
+              <label for="bgcolor">背景色のテーマ</label>
               <select class="form-control" id="bgcolor">
                 <option selected value="62,150,56">Questetra 標準</option>
+                <option value="transparent">透明 (Transparent)</option>
                 <option value="255,0,0">サービス：Adobe</option>
                 <option value="89,76,204">サービス：Adobe Sign</option>
                 <option value="24,191,255">サービス：Airtable</option>
@@ -203,24 +204,24 @@
           </div>
           <div class="col">
             <div class="form-group">
-              <label for="exampleSelect1">主アイコン</label>
+              <label for="main-icon">主アイコン</label>
               <select class="form-control icon-selector" id="main-icon">
               </select>
             </div>
           </div>
           <div class="col">
             <div class="form-group">
-              <label for="exampleSelect1">サブアイコン</label>
+              <label for="sub-icon">サブアイコン</label>
               <select class="form-control icon-selector" id="sub-icon">
                 <option selected value="none">(なし)</option>
               </select>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row text-grid">
           <div class="col">
             <div class="form-group">
-              <label for="title">タイトル：幅が収まらないときはサブも利用</label>
+              <label for="title">タイトル <span>幅が収まらないときはサブも利用</span></label>
               <input type="text" class="form-control" id="title">
             </div>
           </div>
@@ -231,39 +232,55 @@
             </div>
           </div>
         </div>
-        <hr />
-        <div class="row">
-          <div class="col">
-            <h4>1200x628 (表示:25%)</h4>
-            <canvas id="canvas-1200x628" width="1200" height="628"></canvas>
+        </section>
+        <section class="preview-section" aria-label="画像プレビュー">
+        <div class="section-heading preview-heading">
+          <div><p class="eyebrow">LIVE PREVIEW</p><h2>プレビュー</h2></div>
+          <p>各サイズの画像を確認できます。透明部分は市松模様で表示します。</p>
+        </div>
+        <div class="row preview-grid">
+          <div class="col preview-card">
+            <div class="preview-card-heading"><h3>Feature Image</h3><span>1200 × 628</span></div>
+            <div class="canvas-preview"><canvas id="canvas-1200x628" width="1200" height="628"></canvas></div>
+            <button type="button" class="download-button" data-canvas="canvas-1200x628" data-filename="img_feature-image-1200x628.png">PNGをダウンロード</button>
           </div>
-          <div class="col">
-            <h4>600x315 (表示:50%)</h4>
-            <canvas id="canvas-600x315" width="600" height="315"></canvas>
+          <div class="col preview-card">
+            <div class="preview-card-heading"><h3>Social Image</h3><span>600 × 315</span></div>
+            <div class="canvas-preview"><canvas id="canvas-600x315" width="600" height="315"></canvas></div>
+            <button type="button" class="download-button" data-canvas="canvas-600x315" data-filename="img_social-image-600x315.png">PNGをダウンロード</button>
           </div>
-          <div class="col">
-            <h4>440x440 (表示:50%)</h4>
-            <canvas id="canvas-440x440" width="440" height="440"></canvas>
+          <div class="col preview-card">
+            <div class="preview-card-heading"><h3>Square Image</h3><span>440 × 440</span></div>
+            <div class="canvas-preview"><canvas id="canvas-440x440" width="440" height="440"></canvas></div>
+            <button type="button" class="download-button" data-canvas="canvas-440x440" data-filename="img_square-image-440x440.png">PNGをダウンロード</button>
           </div>
-          <div class="col">
-            <h4>32x32 (task-icon)</h4>
-            <canvas id="canvas-32x32" width="32" height="32"></canvas>
+          <div class="col preview-card preview-card-icon">
+            <div class="preview-card-heading"><h3>Task Icon</h3><span>32 × 32</span></div>
+            <div class="canvas-preview"><canvas id="canvas-32x32" width="32" height="32"></canvas></div>
+            <button type="button" class="download-button" data-canvas="canvas-32x32" data-filename="img_task-icon-32x32.png">PNGをダウンロード</button>
           </div>
         </div>
-        <div class="row">
+        </section>
+        <section class="export-section" aria-label="Base64出力">
+        <div class="section-heading">
+          <div><p class="eyebrow">EXPORT</p><h2>Base64</h2></div>
+          <p>タスクアイコン用のエンコード済みデータです。</p>
+        </div>
+        <div class="row export-grid">
           <div class="col">
-            <h4>32x32 Base64</h4>
             <div class="form-group">
               <textarea id="base64" class="form-control base64" readonly rows="12" cols="80"></textarea>
+              <button type="button" class="download-button" id="download-base64">Base64を .txt で保存</button>
             </div>
           </div>
         </div>
+        </section>
       </div>
-      <div class="tab-pane fade" id="static-addon-icon" role="tabpanel" aria-labelledby="static-addon-icon-tab">
+      <div class="tab-pane fade app-panel" id="static-addon-icon" role="tabpanel" aria-labelledby="static-addon-icon-tab">
         <div id="staticIcons" />
       </div>
     </div>
-  </div>
+  </main>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
